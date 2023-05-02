@@ -1,6 +1,8 @@
 
 # Digital Notary Website
 
+##Please Note - Having difficulties running on GitHub Pages. Only currently works on local machine! 
+
 This is a web application that provides a digital notary service. It allows users to securely upload and store their documents, which can be verified using digital signatures.
 
 Please note we are having issues connecting the front end to the database. 
