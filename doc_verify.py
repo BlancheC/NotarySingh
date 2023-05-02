@@ -3,15 +3,6 @@
 #Description: This file contains functions to create and verify digital signatures.
 # Needs to be intergrated
 
-
-import hashlib
-from dpct import DeviceArray 
-import dpctl
-import numba
-from numba import njit
-
-# Generates a private key for signing documents
-@njit
 def hash_buffer(device_buffer, hashed_buffer):import hashlib
 import numpy as np
 import pyopencl as cl
