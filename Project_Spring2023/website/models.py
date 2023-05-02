@@ -67,9 +67,10 @@ class NotaryDocument(db.Model):
 class FormData(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
-    first_name = db.Column(db.String(150), nullable=False)
-    last_name = db.Column(db.String(150), nullable=False)
-    email = db.Column(db.String(150), nullable=False)
+    addr = db.Column(db.String(150), nullable=False)
+    city = db.Column(db.String(150), nullable=False)
+    st = db.Column(db.String(150), nullable=False)
+    zipcode = db.Column(db.String(150), nullable=False)
     document_type = db.Column(db.String(100), nullable=False)
     uploaded_file = db.Column(db.String(255), nullable=False)
 
