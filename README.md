@@ -3,6 +3,9 @@
 
 This is a web application that provides a digital notary service. It allows users to securely upload and store their documents, which can be verified using digital signatures.
 
+Please note we are having issues connecting the front end to the database. 
+We will conntect the oneapi files once database is connected.
+
 ## Installation
 
 To install and run this application, you need to have Python 3.7 or later installed on your machine. Follow these steps to install and run the application:
