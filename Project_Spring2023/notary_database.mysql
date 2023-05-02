@@ -1,3 +1,7 @@
+--Author Blanche Chung
+-- Date Spring 2023
+-- Notary Singh Database
+
 Use notary_database;
 
 -- A list of users combined with their form data
